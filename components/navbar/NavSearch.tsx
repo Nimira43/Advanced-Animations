@@ -1,6 +1,8 @@
+import { Input } from "../ui/input"
+
 function NavSearch() {
     return (
-        <div>NavSearch</div>
+        <Input type='text' />
     )
 }
 export default NavSearch
