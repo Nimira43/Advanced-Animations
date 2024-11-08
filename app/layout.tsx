@@ -1,6 +1,6 @@
+import Navbar from '@/components/navbar/Navbar'
 import { Poppins } from 'next/font/google' 
 import type { Metadata } from 'next';
-
 import './globals.css'
 
 const poppins = Poppins({
@@ -19,11 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body
-        className={poppins.className}
-      >
-        {children}
+    <html lang='en' suppressHydrationWarning>
+      <body className={poppins.className}>
+      <Navbar />
+      <main className='container py-10'>{children}</main>
       </body>
     </html>
   )
