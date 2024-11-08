@@ -2,12 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root { 
+  --blue-dark: #5e6aee;
+  --blue-light: #87ceeb; 
+  --dark: #111; 
+  --light: #fff9f5; 
+  --secondary: #009688; 
+  --grey-light: #d3d3d3; 
+  --grey-dark: #444444; 
+}
+
 @layer components {
   .container {
     @apply mx-auto max-w-6xl xl:max-w-7xl px-8;
   }
 }
-
 
 @layer base {
   :root {
