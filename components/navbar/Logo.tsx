@@ -1,6 +1,14 @@
+import Link from 'next/link'
+import { Button } from '../ui/button'
+import { BiMapPin } from 'react-icons/bi'
+
 function Logo() {
   return (
-    <h1>Logo</h1>
+    <Button size='icon' asChild>
+      <Link href='/'>
+        <BiMapPin />
+      </Link>
+    </Button>
   )
 }
 export default Logo
