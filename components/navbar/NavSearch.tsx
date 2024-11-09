@@ -5,7 +5,7 @@ function NavSearch() {
     <Input
       type='search'
       placeholder='Search for property...'
-      className='max-w-xs dark:bg-muted'  
+      className='max-w-xs dark:bg-muted'
     />
   )
 }
