@@ -2,6 +2,7 @@ import FormInput from '@/components/form/FormInput'
 import { SubmitButton } from '@/components/form/Buttons'
 import FormContainer from '@/components/form/FormContainer'
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const createProfileAction = async (prevState: any, formData: FormData) => {
   'use server'
   const firstName = formData.get('firstName') as string
