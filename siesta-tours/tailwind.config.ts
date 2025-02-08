@@ -9,7 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        
+        'main-dark': '#ff4500',
+        'main-light': 'ed9170',
+        'dark': '#111', 
+        'light': '#fffcfa', 
+        'skyblue': '#87ceeb',
+        'grey-extra-light': '#eee',
+        'grey-light': '#ccc',
+        'grey-medium': '#999',
+        'grey-dark': '#333', 
       },
     },
   },
