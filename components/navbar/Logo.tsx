@@ -1,22 +1,14 @@
-export default function Logo() {
+import Link from 'next/link'
+import { Button } from '../ui/button'
+import { CgGlobe } from 'react-icons/cg'
+
+function Logo() {
   return (
-    <div>Logo</div>
+    <Button size='icon' asChild>
+      <Link href='/'>
+        <CgGlobe  className='w-6 h-6'/>
+      </Link>
+    </Button>
   )
 }
-
-
-
-// import Link from 'next/link'
-// import { Button } from '../ui/button'
-// import { BiMapPin } from 'react-icons/bi'
-
-// function Logo() {
-//   return (
-//     <Button size='icon' asChild>
-//       <Link href='/'>
-//         <BiMapPin  className='w-6 h-6'/>
-//       </Link>
-//     </Button>
-//   )
-// }
-// export default Logo
+export default Logo
