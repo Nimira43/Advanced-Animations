@@ -1,19 +1,12 @@
-export default function NavSearch() {
+import { Input } from "../ui/input";
+
+function NavSearch() {
   return (
-    <div>NavSearch</div>
+    <Input
+      type='search'
+      placeholder='Search for property...'
+      className='max-w-xs dark:bg-muted'
+    />
   )
 }
-
-
-// import { Input } from "../ui/input";
-
-// function NavSearch() {
-//   return (
-//     <Input
-//       type='search'
-//       placeholder='Search for property...'
-//       className='max-w-xs dark:bg-muted'
-//     />
-//   )
-// }
-// export default NavSearch
+export default NavSearch
