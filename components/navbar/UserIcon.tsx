@@ -1,14 +1,8 @@
-export default function UserIcon() {
+import { RiUser6Line } from 'react-icons/ri'
+
+function UserIcon() {
   return (
-    <div>UserIcon</div>
+    <RiUser6Line className='w-6 h-6  rounded-full text-dark dark:text-light' />  
   )
 }
-
-// import { RiUser6Line } from 'react-icons/ri'
-
-// function UserIcon() {
-//   return (
-//     <RiUser6Line className='w-6 h-6  rounded-full text-[#111] dark:text-[#fff]' />  
-//   )
-// }
-// export default UserIcon
+export default UserIcon
